@@ -71,6 +71,7 @@ def all_supplies_in_holidays(holiday_hash)
 
     holiday.each do |holiday, items|
     correct_holiday = holiday.to_s
+
     puts "#{holiday.to_s}: #{items}"
 
     end
